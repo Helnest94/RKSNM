@@ -1,0 +1,26 @@
+# RKSNM – Git Ignore Template
+
+# System junk files
+.DS_Store
+Thumbs.db
+
+# Backup and temporary files
+*.bak
+*.tmp
+*~
+
+# Python cache and environments
+__pycache__/
+*.log
+.cache/
+.idea/
+.vscode/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Private notes or secrets
+*.private.*
+*.secret.*

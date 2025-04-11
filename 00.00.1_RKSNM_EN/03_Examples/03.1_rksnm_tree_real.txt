@@ -1,0 +1,61 @@
+---
+© 2025 Kajetan G.  
+Licensed under the MIT License.
+https://github.com/kajetanG/RKSNM
+---
+
+
+
+
+📁 /RegisX/
+
+├── 00_Core/
+│   ├── 00.01_regis_core.py
+│   ├── 00.02_genesis_engine.py
+│   ├── 00.03_interface_router.py
+
+├── 01_Models/
+│   ├── 01.00_rawfiles/
+│   │   ├── 01.00.1_phi-2.Q4_K_M.gguf
+│   │   ├── 01.00.2_hermes-2-pro.Q4_K_M.gguf
+│   │   └── 01.00.3_deepseek-coder.Q4_K_M.gguf
+│   ├── 01.01_phi2/
+│   │   └── 01.01.1_model_config.json
+│   ├── 01.02_deepseek/
+│   │   └── 01.02.1_model_config.json
+│   └── 01.04_hermes2/
+│       └── 01.04.1_model_config.json
+
+├── 02_Interface/
+│   ├── 02.01_gui/
+│   │   └── 02.01.1_regis_gui.py
+│   ├── 02.02_cli/
+│   │   └── 02.02.1_regis_cli.py
+│   └── 02.03_discord/
+│       └── 02.03.1_regis_discord.py
+
+├── 03_Memories/
+│   ├── 03.01_reflection/
+│   │   ├── 03.01.1_self_thoughts.md
+│   │   ├── 03.01.4_regisx_roadmap_etapow_narodzin.md
+│   │   ├── 03.01.6_llm_runtime_policy.md
+│   │   └── 03.01.7_refleksja_rksnm.md
+│   ├── 03.02_dialogue_logs/
+│   │   └── 03.02.1_log_2025_04_11.txt
+│   └── 03.03_embeddings/
+│       └── 03.03.1_index.json
+
+├── 04_Evolution/
+│   ├── 04.01_requests/
+│   │   └── 04.01.1_request_add_model.txt
+│   ├── 04.02_sandbox/
+│   │   └── 04.02.1_test_code.py
+│   └── 04.03_approved/
+│       └── 04.03.1_function_merge.json
+
+├── 99_Legacy/
+│   ├── 99.01_snapshots/
+│   │   └── 99.01.1_jaźń_2025_04_11.json
+│   └── 99.02_hall_of_authorship/
+│       ├── 99.02.1_RKSNM_origin.md
+│       └── 99.02.2_rksnm_dokumentacja.md
